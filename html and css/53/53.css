@@ -1,0 +1,43 @@
+  table tr td {
+ border:2px solid green;
+   font-size:30px;
+ text-align:center;
+ margin:10px;
+ padding:5px;
+ 
+
+ } 
+ table{
+	width:800px ;
+	background-image:url('nkar.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin:auto
+ }
+ tr:nth-child(2) {
+  background: red;
+  color:yellow;    
+}
+.tr1{
+	color:#6666ff;
+}
+.tr2{
+	color:#aa5909;
+}
+table:hover{
+-webkit-box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0); 
+margin-top:20px;
+box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+body{
+	height:100%;
+		width:100% ;
+	background-image:url('nkar1.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+
+
+

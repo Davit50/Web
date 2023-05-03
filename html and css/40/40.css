@@ -1,0 +1,120 @@
+
+
+div{
+	background-color:#ccc;
+	width:400px;
+	height:360px;
+	 border: 3px solid green ;
+	 padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+input{
+	width:140px;
+	height:40px;
+ border: 2px solid red;
+ color:black;
+ 
+}
+ .text1{
+	 font-size:32px;
+ }
+ 
+ .text2{
+	 color:#ffff0f ;
+margin:200px ;
+text-shadow:3px 3px blue;
+font-size:50px;
+ }
+ .oval {
+	width: 130px;
+	height: 60px;
+	background: #7171d0;
+	color:white ;
+	border-radius: 100px / 50px;
+}
+.img0{
+	background-image: url('nkar.jpg');
+	background-size: cover;
+	background-repeat: repeat;
+	height: 1000px;
+	width: 100%;
+}
+.img1{
+	background-image: url('nkar1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+	width: 100%;
+}
+.img2{
+	background-image: url('nkar2.jpg');
+	background-size: cover;
+	background-repeat: repeat;
+	height: 1000px;
+	width: 100%;
+}
+.img3{
+	background-image: url('nkar3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+	width: 100%;
+}
+
+.circle1 {
+  height: 300px;
+  width: 300px;
+  background-color: #ccff33;
+  border-radius: 50%;
+  border-style: ridge ;
+  	 border-width:2px 120px 4px 20px;
+	 background-image:url('nkar.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 30%;
+	color:#339933;
+}
+.circle2 {
+  height: 250px;
+  width: 300px;
+  background-color: lightblue;
+  border-radius: 50%;
+    border-style: outset ;
+  	 border-width: 2px 50px 4px 20px;
+	 color:lightblue;
+	 	 background-image:url('nkar1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 40%;
+	 padding-right: 30px;
+}
+.circle3 {
+  height: 200px;
+  width: 350px;
+  background-image: url('nkar2.jpg');
+	background-size: cover;
+	background-repeat: repeat;
+	height: 450px;
+	width: 50%;
+  border-radius: 50%;
+    border-style: ridge;
+	color:red;
+  	 border-width: 50px 70px 100px 60px;
+}
+.circle4 {
+  height: 150px;
+  width: 150px;
+  	background-image: url('nkar3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 50%;
+  border-radius: 50%;
+    border-style:  dashed ;
+  	 border-width: 2px 10px 4px 20px;
+	 color:#ffff0f;
+}

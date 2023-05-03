@@ -1,0 +1,38 @@
+body{
+	 background-image: url('nkar.jpg');
+	background-size: cover;
+	color:white ;
+	background-repeat:no-repeat ;
+		text-align:center ;
+}
+.text1{
+	font-family: 'Bebas Neue', cursive;
+	font-size:50px ;
+	padding:0 auto;
+
+}
+div{
+	margin:0 auto ;
+	height: 70%;
+	width:  40%;
+	background-color: #8332a8  ;
+
+}
+
+
+.text2{
+	font-size:25px ;
+	font-family: 'Lobster', cursive;
+}
+input{
+	height: 30px;
+	width:  380px;
+}
+ button{
+height: 30px;
+width:  70px;
+color:white;
+background-color:hotpink;
+border:2px hotpink ;
+ }
+

@@ -1,0 +1,68 @@
+ ul{
+	 display:flex;
+	 align-items:space-evenly;
+	 height:150px;
+	 background-color:grey;
+	 justify-content:space-around;
+	 margin:0;
+	 align-items:center;
+	 position:fixed;
+	 width:100%;
+
+ }
+ li{
+	 color:white;
+	 list-style:none;
+	 font-size:28px;
+	 padding:65px;
+ }
+ .z{
+	 
+width:400px; 
+height:250px;
+position:absolute ; 
+ }
+ .z0{
+	 background-color:red;
+	 z-index:0;
+	 left:50px;
+	top:50px;
+ }
+ .z1{ 
+	  background-color:blue;
+	 z-index:1;
+	  left:100px;
+	top:100px;
+ }
+ .z2{
+	  background-color:green;
+	 z-index:2;
+	  left:150px;
+	top:150px;
+ }
+ .z3{
+	  background-color:yellow;
+	 z-index:3;
+	  left:200px;
+	top:200px;
+ } 
+
+ 
+ body{
+	 background-image: url('nkar.jpg');
+	background-size: cover;
+		height: 100%;
+	width:  100%;
+	
+}
+ul{
+	   justify-content:flex-end;
+height:100px;
+background-color:grey;
+margin:0;
+align-items:center;
+position:fixed	   ;
+display:flex;
+border-left:10px solid #ea4699;
+width:100%;
+}

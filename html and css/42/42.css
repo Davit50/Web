@@ -1,0 +1,50 @@
+body{
+	background-image: url('bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+
+}
+
+.main{
+	width: 900px;
+	margin: 0 auto;
+	padding: 12%;
+}
+
+.div1{
+	color: white;
+	width: 400px;
+	display: inline-block;
+	float: left;
+}
+
+.div2{
+	width: 315px;
+	display: inline-block;
+	float: left;
+	margin-left: 20%;
+}
+
+input{
+	width: 230px;
+	margin: 10px;
+	padding: 5px; 
+}
+
+
+
+form{
+	background: white;
+	padding: 20px;
+	border-radius: 6px;
+}
+button{
+	background: blueviolet;
+	border-style: none;
+	padding: 10px;
+    border-radius: 18px;
+    color: white;
+    margin-left: 10px;
+}
+
