@@ -1,0 +1,53 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+body{
+	margin:0;
+	background-color:#404040  !important;
+	color:white  !important; 
+		
+
+}
+.n1{
+	padding:0px 400px;
+	
+}
+.div1{
+	float:right;
+}
+.nav-bar{
+	font-size:2em;
+
+
+}
+.div2{
+	text-align:center;
+	padding-top:20%
+}
+a{
+	color:white  !important; 
+}

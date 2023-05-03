@@ -1,0 +1,38 @@
+ .img1{
+background-image: url('nkar1.png');
+	background-repeat: no-repeat;
+	height: 300px;
+	width:  1000px;
+	background-size:cover;
+	 animation-delay: 1.7s;
+
+	
+ }
+ .img2{
+	 background-image: url('nkar1.png');
+	background-repeat: no-repeat;
+	height: 300px;
+	width:  1000px;
+	background-size:cover;
+ 
+	
+ }
+ div{
+		height: 600px;
+	width:  1000px;
+ }
+ .img1:hover{
+	 	width: 750px;
+	height: 600px;
+	transition: width 4s, height 4s, transform 4s;
+ }
+ .img2:hover{
+	 	width: 750px;
+	height: 600px;
+	transition: width 10s, height 10s, transform 10s;	
+ }
+
+
+	
+
+ 

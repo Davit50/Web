@@ -1,0 +1,42 @@
+body{
+	background-image:url('nkar.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+			font-size:20px;
+}
+.div1{
+	background-color:rgba(38, 38, 38, 0.6)    ;
+	color:rgba(1,1,8,0.97) ;
+	height:35%;
+	width:40%;
+	float:left;
+text-align:center;
+padding:10px;
+margin:40px;
+margin-top:200px;
+margin-left:70px;
+Border-left: 8px solid aqua;
+color:white;
+	
+}
+#div11{
+	font-size:60px;
+	
+
+}
+#qarakusi{
+	background-color:aqua;
+		height:60px;
+	width:100px;
+	float:right;
+	border:3px solid aqua;
+	color:white;
+	margin:20% 50px;
+	
+	
+	
+	
+	
+	
+	
+}

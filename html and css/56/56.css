@@ -1,0 +1,12 @@
+.trans{
+	width: 400px;
+	height: 280px;
+	transition: width 4s, height 4s, transform 4s;
+
+}
+
+.trans:hover{
+	width: 600px;
+	height: 320px;
+	transform: rotate(360deg);
+}
