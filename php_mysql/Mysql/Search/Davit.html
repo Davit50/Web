@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<title>Davit</title>
+<body style="background: #5c666b">
+<div style="margin-left:40%">
+<form action="" enctype="multipart/form-data">
+    <input  style=" margin-top:10px;border-radius:40% ;border:5px double gray;height:30px;width:200px" id = "inp" type="text">
+<!--<button type="submit">-->
+<!--  sent-->
+<!--</button>-->
+</form>
+    <h1   id ="text" style="color:#eee3f0"></h1>
+    <hr style="width:230px;margin-right: 100%">
+    <button style="margin-top:20px;border-radius:40% ;border:5px double limegreen;height:30px;width:200px" type="submit" name="submit">Submit</button>
+
+    </h1>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+     	 $('#inp').on('input',function(e){
+             document.getElementById("text").innerHTML = $(this).val();
+            console.log(e.target.value)
+
+             $.ajax({
+                 type : "POST",
+                 url : 'DataBase.php',
+                 data : {name:$('#text').val()},
+                 headers:{
+                     "Content-Type" : "multipart/form-data"
+                 },
+                 success: function (response) {
+                     console.log(response);
+
+                 },
+                 error : function () {
+                     console.log('error')
+                 }
+             })
+         })
+     })
+
+</script>
+</body>
+</html>
