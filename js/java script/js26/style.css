@@ -1,0 +1,8 @@
+#text{
+    /*color:yellow;*/
+}
+.row div{
+    background: gray;
+    border: 1px solid black;
+    height: 50px;
+}

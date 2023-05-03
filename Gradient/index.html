@@ -1,0 +1,42 @@
+<!doctype html5>
+<html>
+ <head><!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58936387-12"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-58936387-12');
+            </script><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet"
+   href="style.css">
+  <link
+   href="https://fonts.google.com/css2?family=Open+Sans&display=swap"
+   rel="stylesheet">
+ </head>
+ <body>
+  <p class="inputLine">Color 1: <input
+    id="color1" type="color"
+    oninput="updateGradient();">
+  </p>
+  <p class="inputLine"> Color 2: <input
+    id="color2" type="color"
+    oninput="updateGradient();"></p>
+  <p class="inputLine">Angle: <input
+    id="angle" type="number" min="0"
+    max="360" pattern="[0-9]*"
+    oninput="updateGradient();"></p>
+  <div id="gradient"></div>
+  <p id="code"></p>
+  <button onclick="copyCode();">Copy code
+   to clipboard</button>
+  <script src="script.js"></script>
+ 
+
+              
+            
+    </body>
+    
+</html>

@@ -1,0 +1,33 @@
+body {
+ font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+ text-align: center;
+}
+
+.inputLine {
+ text-align: left;
+}
+
+#gradient {
+ width: 512px;
+ height: 512px;
+ background-color: gray;
+ margin: 0 auto;
+}
+
+#code {
+ background: linear-gradient(#FFFFFF, #D3D4D5);
+ padding: 10px;
+ border: 1px black solid;
+ border-radius: 5px;
+}
+
+button {
+display: block;
+ margin: 0 auto;
+}
+
+
+             

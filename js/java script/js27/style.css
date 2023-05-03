@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+button{
+    border: none;
+    outline:none;
+    background: coral;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+section{
+    position: relative;
+}
+.popup{
+    height: 100px;
+    width:45%;
+    border:1px solid #999;
+    border-radius: 15px;
+    padding: 25px;
+    position: absolute;
+    left: 100%;
+    transition: 1s;
+}
+.close{
+    position: absolute;
+    right: 25px;
+    top: 5px;
+}
+.show{
+    left: 25%;
+    transition: 1s;
+}
+.bulb{
+    width: 352px;
+    position: relative;
+}
+.bulb img {
+    position: absolute;
+}
+.switch{
+    margin-top: 450px;
+}
+.z{
+    z-index: 1;
+}
+.active{
+    background: yellow;
+}
